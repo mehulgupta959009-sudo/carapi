@@ -4,7 +4,7 @@ import joblib, pandas as pd
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-BASE = Path(__file__).resolve().parent.parent / "models"
+BASE = Path(__file__).resolve().parent / "models"
 FILES = {"random_forest": "random_forest.joblib", "xgboost": "xgboost.joblib"}
 _cache = {}
 
