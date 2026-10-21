@@ -1,0 +1,4 @@
+*.csv
+notebooks
+__pycache__
+.venv
